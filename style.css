@@ -63,12 +63,10 @@ section div h1{
     /* padding: 10px 0px; */
     margin: 15px 0px;
 }
-.btn  {
+.btn a{
     color: white;
     
 }
-
-
 
 .btn:hover
 {
