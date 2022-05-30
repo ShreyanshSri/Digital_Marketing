@@ -35,12 +35,17 @@ section
     border-radius: 12px;
     /* font-size: ; */
     color: black;
+    text-decoration: none;
 
     
 }
-.sign1
+#second
 {
     color: #a2a5aa;
+}
+
+#first{
+    color: black;
 }
 
 .sign1:hover{
@@ -137,3 +142,4 @@ input[type="email"]
 {
     color: #e74c3c
 }
+
