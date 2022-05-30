@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+section
+{
+
+    width: 100%;
+    height: 100vh;
+    background: url(images/img.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.first{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75px ;
+    color: black
+}    
+.content
+{
+    font-family: sans-serif;
+    color: #313131;
+    font-size: 55px;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+}
+
+.intro
+{
+    font-size: 30px;
+    /* line-height: 20px; */
+    padding: 5px 0px;
+    /* line-height: 10px; */
+
+}
+
+section div h1{
+    line-height: 80px;
+    margin: 8px 0px;
+}
+.btn
+{
+    
+    height: 40px;
+    width: 150px;
+    border-radius: 16px ;
+    color: white;
+    background-color: #313131;
+    border-style: none;
+    /* padding: 10px 0px; */
+    margin: 15px 0px;
+}
+.btn a{
+    color: white;
+    
+}
+
+.btn:hover
+{
+    height: 45px;
+    width: 180px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.sign
+{
+    font-size: 18px;
+}
+
+.span-sign
+{
+    color: white;
+    text-decoration: underline;
+}
+.span-sign:hover
+{
+    cursor: pointer;
+    color: #e74c3c;
+}
